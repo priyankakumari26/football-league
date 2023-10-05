@@ -1,0 +1,7 @@
+{
+    "/api/*": {
+    "target": "https://dashboard.api-football.com",
+    "secure": false,
+    "changeOrigin": true
+  }
+}

@@ -1,0 +1,6 @@
+<h2>FOOTBALL UPDATES</h2>
+  <div class="tab">
+    <button class="tablinks" *ngFor="let country of countries" (click)="selectedCountry(country)" [attr.id]="country.toLowerCase() + 'Select'">
+        {{ country }}
+    </button>
+  </div>
